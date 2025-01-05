@@ -5,7 +5,7 @@ function GoogleFormToLine() {
     var headers = sheet.getRange(1, 1, 1, column).getValues()[0]; 
     var lastRowData = sheet.getRange(row, 1, 1, column).getValues()[0]; 
     var message = "\n📢 แจ้งการลา 📢\n\n---------------------------------------------\n\n "; // เริ่มข้อความแจ้งเตือนพร้อมหัวข้อใหญ่
-    var linkMessage = "📎 **ลิงก์ Google Sheets:**\nhttps://docs.google.com/spreadsheets/d/1zYijOIllUhAEIlRddD2tcBhDMzLHdwTkuqCmyAgNv7w/edit?resourcekey=&gid=1021450421#gid=1021450421\n"; // ลิงก์ของ Google Sheets
+    var linkMessage = "📎 **ลิงก์ Google Sheets:**\n(ลิ้งซีตสำหรับให้มันส่งไปในไลน์)\n"; // ลิงก์ของ Google Sheets
     var medicalFileLink = ""; // ลิงก์ไฟล์แนบใบรับรองทางการแพทย์
     var leaveType = ""; // ประเภทการลา
     var gifUrl = ""; // URL ของภาพ GIF
